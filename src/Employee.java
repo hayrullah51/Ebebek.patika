@@ -33,7 +33,7 @@ public class Employee {
 
 
         if (this.workHours > 40) {
-            return bonus = (workHours - 40) * 30; // 40 saat ustu 30tl bonus
+            return bonus = (workHours - 40) * 30 * 4; // 40 saat ustu 30tl haftalik bonus (x4 ile aylik hesaplanir)
         } else {
             return bonus = 0; // 40 saat ve altina bonus yok!
         }
